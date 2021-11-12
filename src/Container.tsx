@@ -80,7 +80,7 @@ export const Container: FC = memo(function Container() {
   return (
     <div>
       <div>
-        <img src={Basemap} className="photo"/>
+        <img src={Basemap} className="photo" />
       </div>
       <div style={{ overflow: 'hidden', clear: 'both' }}>
         {dustbins.map(({ accepts, lastDroppedItem }, index) => (

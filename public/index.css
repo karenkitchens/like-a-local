@@ -13,5 +13,42 @@ code {
 }
 
 .photo {
-  width: 900px;
+  width: 600px;
+}
+
+.map-container {
+  width: 1100px;
+  height: 600px;
+  position: relative;
+}
+
+.map-container .map {
+  position: absolute;
+  height: 600px;
+  top: 0;
+  right: 0;
+}
+
+.Vector1 {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 0;
+  right: 350px;
+}
+
+.Vector2 {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 200px;
+  right: 500px;
+}
+
+.Vector3 {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 150px;
+  right: 100px;
 }

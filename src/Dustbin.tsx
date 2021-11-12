@@ -2,8 +2,8 @@ import { CSSProperties, FC, memo } from 'react'
 import { useDrop } from 'react-dnd'
 
 const style: CSSProperties = {
-  height: '12rem',
-  width: '12rem',
+  height: '100px',
+  width: '100px',
   marginRight: '1.5rem',
   marginBottom: '1.5rem',
   color: 'white',
@@ -35,7 +35,7 @@ export const Dustbin: FC<DustbinProps> = memo(function Dustbin({
   })
 
   const isActive = isOver && canDrop
-  let backgroundColor = '#222'
+  let backgroundColor = ''
   if (isActive) {
     backgroundColor = 'darkgreen'
   } else if (canDrop) {
@@ -43,7 +43,7 @@ export const Dustbin: FC<DustbinProps> = memo(function Dustbin({
   }
 
   return (
-    <div ref={drop} role="Dustbin" style={{ ...style, backgroundColor }}>
+    <div ref={drop} role="Dustbin" style={{ ...style, backgroundColor }} className={accept.join(', ')}>
       {isActive
         ? 'Release to drop'
         : `This container accepts: ${accept.join(', ')}`}

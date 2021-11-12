@@ -3,14 +3,13 @@
 	import Example from './example'
 	import { DndProvider } from 'react-dnd'
 	import { HTML5Backend } from 'react-dnd-html5-backend'
-  import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
-  import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+	import logo from './logo.png'
   
 	function App() {
 		return (
 			<div className="App">
         <h1>
-          Like a L<FontAwesomeIcon icon={faMapMarkerAlt} />cal
+         	<img src={logo} className='logo'/>
         </h1>
 				<DndProvider backend={HTML5Backend}>
 					<Example />

@@ -33,22 +33,74 @@ code {
   width: 55px;
   height: 55px;
   position: absolute;
-  top: 0;
-  right: 350px;
+  top: 8px;
+  right: 333px;
+}
+
+.Vector1 .dropped {
+  background: url(/like-a-local/Vector-1.svg) no-repeat;
+  height: 94px;
+  width: 81px;
+  background-size: 100%;
 }
 
 .Vector2 {
   width: 55px;
   height: 55px;
   position: absolute;
-  top: 200px;
-  right: 500px;
+  top: 198px;
+  right: 471px;
 }
+
+.Vector2 .dropped {
+  background: url(/like-a-local/Vector-2.svg) no-repeat;
+  height: 85px;
+  width: 75px;
+  background-size: 100%;
+}
+
 
 .Vector3 {
   width: 55px;
   height: 55px;
   position: absolute;
-  top: 150px;
-  right: 100px;
+  top: 159px;
+  right: 68px;
+}
+
+.Vector3 .dropped {
+  background: url(/like-a-local/Vector-3.svg) no-repeat;
+  height: 73px;
+  width: 58px;
+  background-size: 100%;
+}
+
+.Vector4 {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 356px;
+  right: 245px;
+}
+
+.Vector4 .dropped {
+  background: url(/like-a-local/Vector-4.svg) no-repeat;
+  height: 73px;
+  width: 100px;
+  background-size: 100%;
+}
+
+.Vector5 {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 226px;
+  right: 219px;
+}
+
+.Vector5 .dropped {
+  background: url(/like-a-local/Vector-5.svg) no-repeat;
+  height: 73px;
+  width: 70px;
+  background-size: 100%;
 }

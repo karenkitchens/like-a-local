@@ -6,6 +6,8 @@ import { ItemTypes } from './ItemTypes'
 import Vector1 from './Vector1Pink.svg'
 import Vector2 from './Vector-2.svg'
 import Vector3 from './Vector3Pink.svg'
+import Vector4 from './Vector-4.svg'
+import Vector5 from './Vector-5.svg'
 import Basemap from './Dark.jpg'
 import update from 'immutability-helper'
 
@@ -43,13 +45,16 @@ export const Container: FC = memo(function Container() {
       accepts: [ItemTypes.Vector3],
       lastDroppedItem: null,
     },
-    { accepts: [ItemTypes.Vector1], lastDroppedItem: null },
+    { accepts: [ItemTypes.Vector4], lastDroppedItem: null },
+    { accepts: [ItemTypes.Vector5], lastDroppedItem: null },
   ])
 
   const [boxes] = useState<BoxState[]>([
     { name: 'Vector 1', src: Vector1, type: ItemTypes.Vector1 },
     { name: 'Vector-2', src: Vector2, type: ItemTypes.Vector2 },
     { name: 'Vector-3', src: Vector3, type: ItemTypes.Vector3 },
+    { name: 'Vector-4', src: Vector4, type: ItemTypes.Vector4 },
+    { name: 'Vector-5', src: Vector5, type: ItemTypes.Vector5 },
   ])
 
   const [droppedBoxNames, setDroppedBoxNames] = useState<string[]>([])

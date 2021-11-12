@@ -106,6 +106,7 @@ export const Container: FC = memo(function Container() {
               key={index}
             />
           ))}
+          <a href="/like-a-local" className="replay">Replay!</a>
         </div>
       </div>
     </div>

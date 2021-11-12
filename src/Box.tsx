@@ -31,7 +31,7 @@ export const Box: FC<BoxProps> = memo(function Box({ name, type, src, isDropped 
   )
 
   return (
-    <div ref={drag} role="Box" style={{ ...style, opacity }}>
+    <div ref={drag} role="Box" style={{ ...style, opacity }} className={isDropped ? 'Isdropped' : ''}>
       {isDropped ? <s>{name}</s> : name}
       <img src={src} />
     </div>

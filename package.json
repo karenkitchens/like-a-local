@@ -1,7 +1,6 @@
 {
   "name": "like-a-local",
   "version": "0.1.0",
-  "main": "src/index.tsx",
   "private": true,
   "homepage": "https://karenkitchens.github.io/like-a-local",
   "dependencies": {

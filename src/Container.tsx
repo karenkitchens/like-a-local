@@ -6,6 +6,7 @@ import { ItemTypes } from './ItemTypes'
 import Vector1 from './Vector-1.svg'
 import Vector2 from './Vector-2.svg'
 import Vector3 from './Vector-3.svg'
+import Basemap from './NatGeo.jpg'
 import update from 'immutability-helper'
 
 interface DustbinState {
@@ -78,6 +79,9 @@ export const Container: FC = memo(function Container() {
 
   return (
     <div>
+      <div>
+        <img src={Basemap} className="photo"/>
+      </div>
       <div style={{ overflow: 'hidden', clear: 'both' }}>
         {dustbins.map(({ accepts, lastDroppedItem }, index) => (
           <Dustbin

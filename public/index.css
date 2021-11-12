@@ -108,3 +108,8 @@ code {
   width: 70px;
   background-size: 100%;
 }
+
+.App {
+  width: 1100px;
+  margin: 0 auto;
+}

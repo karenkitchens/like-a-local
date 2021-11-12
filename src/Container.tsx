@@ -8,7 +8,7 @@ import Vector2 from './Vector-2.svg'
 import Vector3 from './Vector3Pink.svg'
 import Vector4 from './Vector-4.svg'
 import Vector5 from './Vector-5.svg'
-import Basemap from './Dark.jpg'
+import Basemap from './Dark_2.jpg'
 import update from 'immutability-helper'
 
 interface DustbinState {

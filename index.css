@@ -34,7 +34,7 @@ code {
   height: 55px;
   position: absolute;
   top: 8px;
-  right: 333px;
+  right: 303px;
 }
 
 .Vector1 .dropped {
@@ -48,8 +48,8 @@ code {
   width: 55px;
   height: 55px;
   position: absolute;
-  top: 198px;
-  right: 471px;
+  top: 200px;
+  right: 442px;
 }
 
 .Vector2 .dropped {
@@ -65,7 +65,7 @@ code {
   height: 55px;
   position: absolute;
   top: 159px;
-  right: 68px;
+  right: 40px;
 }
 
 .Vector3 .dropped {
@@ -79,8 +79,8 @@ code {
   width: 55px;
   height: 55px;
   position: absolute;
-  top: 356px;
-  right: 245px;
+  top: 358px;
+  right: 215px;
 }
 
 .Vector4 .dropped {
@@ -94,8 +94,8 @@ code {
   width: 55px;
   height: 55px;
   position: absolute;
-  top: 226px;
-  right: 219px;
+  top: 227px;
+  right: 190px;
 }
 
 .Vector5 .dropped {

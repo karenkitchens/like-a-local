@@ -48,6 +48,13 @@ code {
   background-size: 100%;
 }
 
+.Vector1 .dropped:after {
+  content: 'Lake Pleasant';
+  position: absolute;
+  left: 100px;
+  top: 0px;
+}
+
 .Vector2 {
   width: 55px;
   height: 55px;
@@ -63,6 +70,12 @@ code {
   background-size: 100%;
 }
 
+.Vector2 .dropped:after {
+  content: 'White Tank Mountain';
+  position: absolute;
+  left: 100px;
+  top: 0px;
+}
 
 .Vector3 {
   width: 55px;
@@ -77,6 +90,13 @@ code {
   height: 73px;
   width: 58px;
   background-size: 100%;
+}
+
+.Vector3 .dropped:after {
+  content: 'McDowell Mountains';
+  position: absolute;
+  left: 100px;
+  top: 0px;
 }
 
 .Vector4 {
@@ -94,6 +114,13 @@ code {
   background-size: 100%;
 }
 
+.Vector4 .dropped:after {
+  content: 'South Mountain';
+  position: absolute;
+  left: 130px;
+  top: 0px;
+}
+
 .Vector5 {
   width: 55px;
   height: 55px;
@@ -107,6 +134,13 @@ code {
   height: 73px;
   width: 70px;
   background-size: 100%;
+}
+
+.Vector5 .dropped:after {
+  content: 'Phoenix Mountains';
+  position: absolute;
+  left: 100px;
+  top: 0px;
 }
 
 .App {

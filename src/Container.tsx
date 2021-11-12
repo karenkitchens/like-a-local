@@ -50,11 +50,11 @@ export const Container: FC = memo(function Container() {
   ])
 
   const [boxes] = useState<BoxState[]>([
-    { name: 'Vector 1', src: Vector1, type: ItemTypes.Vector1 },
-    { name: 'Vector-2', src: Vector2, type: ItemTypes.Vector2 },
-    { name: 'Vector-3', src: Vector3, type: ItemTypes.Vector3 },
-    { name: 'Vector-4', src: Vector4, type: ItemTypes.Vector4 },
-    { name: 'Vector-5', src: Vector5, type: ItemTypes.Vector5 },
+    { name: 'Lake Pleasant', src: Vector1, type: ItemTypes.Vector1 },
+    { name: 'White Tank Mountain', src: Vector2, type: ItemTypes.Vector2 },
+    { name: 'McDowell Mountains', src: Vector3, type: ItemTypes.Vector3 },
+    { name: 'South Mountain', src: Vector4, type: ItemTypes.Vector4 },
+    { name: 'Phoenix Mountains', src: Vector5, type: ItemTypes.Vector5 },
   ])
 
   const [droppedBoxNames, setDroppedBoxNames] = useState<string[]>([])
